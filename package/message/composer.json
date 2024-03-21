@@ -1,0 +1,27 @@
+{
+    "name": "sug/sug",
+    "description": "简单的测试包",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sug\\Sug\\": "src/",
+            "DevPackage\\Message\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Choi",
+            "email": "1371114042@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevPackage\\Message\\MessageServiceProvider"
+            ]
+        }
+    }
+}
